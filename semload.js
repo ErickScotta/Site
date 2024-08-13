@@ -1,8 +1,10 @@
 function refresh(conteudo){
     const larguraJanela = window.innerWidth;
-    if(larguraJanela<=480){
+    if(larguraJanela<=389){
         var url = 'p.html'
-    }else if(larguraJanela > 480 && larguraJanela <= 767){
+    }else if(larguraJanela >=390 && larguraJanela <= 600){
+        var url = 'pm.html'
+    }else if(larguraJanela >= 601 && larguraJanela <= 767){
         var url = 'm.html'
     }else if(larguraJanela >= 768 && larguraJanela <= 1024){
         var url = 'g.html'
