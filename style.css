@@ -1,0 +1,30 @@
+div{
+    height: 100%;
+    width: 97dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    position: relative;
+    top: 170px;
+    width: 50dvw;
+    height: 30dvh;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    border-radius: 30px;
+    border: 3px solid blueviolet;
+    
+}
+
+@media (max-width: 500px){
+    button{
+        width: 270px;
+        height: 180px;
+        font-size: 2em;
+    }
+}
